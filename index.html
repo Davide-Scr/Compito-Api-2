@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrivi Fermata GTT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        GTT - Arrivi in Fermata
+    </header>
+
+    <div class="container">
+        <h1>Inserisci il numero della fermata</h1>
+        <input type="text" id="num" placeholder="Es. 1234">
+        <button type="button" onclick="cercafermata()">Mostra</button>
+        <button type="button" id="aggiorna" onclick="aggiorna()">Aggiorna</button>
+
+        <div id="lista"></div>
+    </div>
+
+    <footer>
+        © 2025 GTT Torino - Made by Davide Scramuzza
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
